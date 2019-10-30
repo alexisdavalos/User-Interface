@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin-top: -20px;
+    padding-top: 20px;
 }
 ol, ul {
 	list-style: none;
@@ -49,12 +51,12 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +66,99 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+a{
+	text-decoration:none;
+}
+p{
+	width:95%;
+	line-height: 1.25;
+}
+.section-one h1{
+	font-size: 85px;
+}
+.container{
+	width:80%;
+	margin:0 auto;
+}
+nav {
+	text-align:center;
+	padding:1%;
+	position:fixed;
+	width:100%;
+	background-color:#02fffb;
+}
+
+nav a{
+	margin: 2%;
+	vertical-align: super;
+	color:gray;
+}
+
+.nav-image{
+	margin-left: 3%;
+	display:inline-block;
+	background-image: url(..\img\logo.png);
+}
+
+section{
+	text-align:center;
+	margin:3% 0%;
+}
+.section-wrapper{
+	margin: 5%;
+	max-width: 100%;
+	text-align: center;
+}
+.section-one{
+	padding-bottom:1%;
+}
+.section-two{
+	border-top: 1px solid black;
+}
+
+.image-section img{
+	width: 100%;
+}
+
+.box{
+	display:inline-block;
+	margin: 0% 5%;
+}
+
+.feature-box{
+	display:inline-block;
+	width:50%;
+	margin: 2% 0%;
+	text-align:left;
+}
+.services-box{
+	display:inline-block;
+	width:33%;
+	margin: 2% 0%;
+	text-align:left;
+}
+
+button{
+width: 200px;
+padding: 2%;
+background:white;
+border: 1px solid black;
+}
+button a{
+	color:black;
+}
+
+footer p{
+	text-align:center;
+}
+
+footer{
+	margin-bottom:10%;
+	border-top: solid 1px black;
+	font-family: 'Staatliches', cursive;
+}
+
+.footer-container{
+	margin-top:3%;
+}
