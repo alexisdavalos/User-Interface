@@ -122,9 +122,10 @@ nav a:hover{
 }
 .middle-image{
 	background-image:url(../img/mid-page-accent.jpg);
-	height: 182px;
+	height: 250px;
+	background-size:contain;
 }
-/* background images end */
+/* Section Styles */
 section{
 	text-align:center;
 	margin:3% 0%;
@@ -145,6 +146,7 @@ section{
 	width: 100%;
 }
 
+/* Box Styles */
 .box{
 	display:inline-block;
 	margin: 0% 5%;
@@ -165,16 +167,29 @@ section{
 	margin: 2% 0%;
 	text-align:left;
 }
+/* Button Styles */
+.button{
+	background-color: #02c4ff;
+	color: white;
+	padding: 10px 44px;
+	text-align: center;
+	border: solid 2px white;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 4px 2px;
+	cursor: pointer;
+}
 
-button{
-width: 200px;
-padding: 2%;
-background:white;
-border: 1px solid black;
+.button:hover{
+	background-color:white;
+	color: #02c4ff;
+	border: solid 2px #02c4ff;
+
 }
-button a{
-	color:black;
-}
+
+/* Footer Styles*/
 
 footer p{
 	text-align:center;
