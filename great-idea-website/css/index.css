@@ -30,8 +30,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	margin-top: -20px;
-    padding-top: 20px;
 }
 ol, ul {
 	list-style: none;
@@ -66,7 +64,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
+body{
+	margin-top: -20px;
+    padding-top: 20px;
+}
 a{
 	text-decoration:none;
 }
@@ -80,27 +81,50 @@ p{
 .container{
 	width:80%;
 	margin:0 auto;
+	padding-top: 5%;
 }
 nav {
 	text-align:center;
 	padding:1%;
 	position:fixed;
 	width:100%;
-	background-color:#02fffb;
+	background-color:#02c4ff;
 }
 
 nav a{
-	margin: 2%;
-	vertical-align: super;
-	color:gray;
+	margin: 1%;
+	color:white;
+	padding: 15px;
+	border-radius:10%;
 }
 
+nav a:hover{
+	color:#02c4ff;
+	background-color:black;
+	padding: 5px 15px;
+	border-radius:5%;
+}
+
+/* background images */
 .nav-image{
 	margin-left: 3%;
 	display:inline-block;
-	background-image: url(..\img\logo.png);
+	background-image: url(../img/logo.png);
+	vertical-align: middle;
+	width: 183px;
+	height: 36px;
 }
 
+.header-image{
+	background-image: url(../img/header-img.png);
+	background-repeat:no-repeat;
+	height: 379px;
+}
+.middle-image{
+	background-image:url(../img/mid-page-accent.jpg);
+	height: 182px;
+}
+/* background images end */
 section{
 	text-align:center;
 	margin:3% 0%;
@@ -124,6 +148,9 @@ section{
 .box{
 	display:inline-block;
 	margin: 0% 5%;
+	width:30%;
+	vertical-align:middle;
+	
 }
 
 .feature-box{
