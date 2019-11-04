@@ -49,12 +49,12 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +64,143 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	margin-top: -20px;
+    padding-top: 20px;
+}
+a{
+	text-decoration:none;
+}
+p{
+	width:95%;
+	line-height: 1.25;
+}
+.section-one h1{
+	font-size: 85px;
+}
+.container{
+	width:80%;
+	margin:0 auto;
+	padding-top: 5%;
+}
+nav {
+	text-align:center;
+	padding:1%;
+	position:fixed;
+	width:100%;
+	background-color:#02c4ff;
+}
+
+nav a{
+	margin: 1%;
+	color:white;
+	padding: 15px;
+	border-radius:10%;
+}
+
+nav a:hover{
+	color:#02c4ff;
+	background-color:black;
+	padding: 5px 15px;
+	border-radius:5%;
+}
+
+/* background images */
+.nav-image{
+	margin-left: 3%;
+	display:inline-block;
+	background-image: url(../img/logo.png);
+	vertical-align: middle;
+	width: 183px;
+	height: 36px;
+}
+
+.header-image{
+	background-image: url(../img/header-img.png);
+	background-repeat:no-repeat;
+	height: 379px;
+}
+.middle-image{
+	background-image:url(../img/mid-page-accent.jpg);
+	height: 250px;
+	background-size:contain;
+}
+/* Section Styles */
+section{
+	text-align:center;
+	margin:3% 0%;
+}
+.section-wrapper{
+	margin: 5%;
+	max-width: 100%;
+	text-align: center;
+}
+.section-one{
+	padding-bottom:1%;
+}
+.section-two{
+	border-top: 1px solid black;
+}
+
+.image-section img{
+	width: 100%;
+}
+
+/* Box Styles */
+.box{
+	display:inline-block;
+	margin: 0% 5%;
+	width:30%;
+	vertical-align:middle;
+	
+}
+
+.feature-box{
+	display:inline-block;
+	width:50%;
+	margin: 2% 0%;
+	text-align:left;
+}
+.services-box{
+	display:inline-block;
+	width:33%;
+	margin: 2% 0%;
+	text-align:left;
+}
+/* Button Styles */
+.button{
+	background-color: #02c4ff;
+	color: white;
+	padding: 10px 44px;
+	text-align: center;
+	border: solid 2px white;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.button:hover{
+	background-color:white;
+	color: #02c4ff;
+	border: solid 2px #02c4ff;
+
+}
+
+/* Footer Styles*/
+
+footer p{
+	text-align:center;
+}
+
+footer{
+	margin-bottom:10%;
+	border-top: solid 1px black;
+	font-family: 'Staatliches', cursive;
+}
+
+.footer-container{
+	margin-top:3%;
+}
